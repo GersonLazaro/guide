@@ -1,37 +1,37 @@
-### 1. Sign up for GitHub
+### 1. Inscribete en github
 
-GitHub has two types of accounts: [personal user accounts and organization accounts][user-accounts]. To get started, you and each student/co-teacher will need to [create a personal account][signup], if you or they don't have one already. Each individual user on GitHub should have exactly one personal account. There's no need to maintain a separate account just for teaching, we'll use an organization for that.
+GitHub tiene dos tipos de cuentas: [personales y empresariales][user-accounts]. Para empezar, tú y cada estudiante/co-profesor necesitan crear una cuenta personal, si aún no la tienen. Cada usuario individual en GitHub debe tener su propia cuenta. No hay necesidad de mantener una cuenta separada sólo por la enseñanza, vamos a utilizar una organización para eso.
 
-It's totally free to create an account, so go ahead and [sign up][signup].
+Es totalmente gratuito crear una cuenta, así que adelante, [regístrate][signup].
 
-### 2. Create an organization for your class
+### 2. Crea una organización para tu clase
 
-**You must be logged into your personal GitHub account in order to create an organization account.**
+**Tienes que iniciar sesión en tu cuenta personal de GitHub con el fin de crear una cuenta organización.**
 
-A GitHub organization represents a group of people working together, like a company or an open-source project. In this case, we'll use an organization to represent your class in school. You can name your organization anything you like. A common convention is to use some combination of the school name and course number. If you intend to repeat the course, you may want to include the semester or year in the name. You can always [rename it][help-rename] later if you need.
+Una organización GitHub representa un grupo de personas que trabajan juntas, como una empresa o un proyecto de código abierto. En este caso, vamos a utilizar una organización para representar a su clase en la escuela o universidad. Puedes colocar a tu organización el nombre que quieras. Una convención común es utilizar una combinación del nombre de la escuela y número del curso. Si tiene intención de repetir el curso, es posible que desee incluir el semestre o el año en el nombre. Siempre se puede cambiar el nombre más adelante si es necesario.
 
-[Create an organization][org-signup] for your class.
+[Crea una organización][org-signup] para tu clase.
 
-### 3. Post your syllabus
+### 3. Publica tu syllabus
 
-You may want to create a repository with your syllabus and assignment description(s). That way, students can see any changes made over time and create issues to ask for clarifications. If the repository is public, other teachers can collaborate with you to make your materials even better.
+Es posible que desee crear un repositorio con tu plan de estudios y la descripción de los trabajos. De esta forma, los estudiantes pueden ver los cambios realizados en el tiempo y crear “issues” para pedir aclaraciones. Si el repositorio es público, otros profesores pueden colaborar con usted para hacer sus materiales aún mejor.
 
-See [an example course repository](https://github.com/advanced-js/syllabus).
+Mira [un ejemplo de un repositorio de grupo](https://github.com/advanced-js/syllabus).
 
-### 4. Set up the assignments
+### 4. Establece las tareas
 
-See our guide on [assignment setup][assignments].
+Mira la [guía de configuración de tareas][assignments].
 
-### 5. Get started with Git and GitHub
+### 5. Comienza con Git y GitHub
 
-We have various resources available for Git and GitHub:
+Tenemos varios recursos disponibles para Git y GitHub:
 
-* [List of guides and tutorials][learning-materials] for learning how to use them
-* [Open source training materials][teaching-materials] to you can use/customize for your classes
-* [Git cheat sheet][cheat-sheet]
-* Our [community forum for teachers][teacher-community]
+* [Lista de guías y tutoriales][learning-materials] para aprender a usarlos
+* [Materiales de capacitación de código abierto][teaching-materials] que puedes usar/personalizar para tus clases
+* [Hoja de referencia Git ][cheat-sheet]
+* Nuestro [foro comunitario para profesores.][teacher-community]
 
-If you or your students don't have a lot of experience with the command-line, check out [GitHub for Mac][ghfm] and [GitHub for Windows][ghfw].
+Si tu o tus alumnos no tienen mucha experiencia con la línea de comandos, echa un vistazo a [GitHub para Mac][ghfm] y [GitHub para Windows][ghfw].
 
 <!-- Links -->
 [help-rename]: https://help.github.com/articles/renaming-an-organization
@@ -41,7 +41,7 @@ If you or your students don't have a lot of experience with the command-line, ch
 [assignments]: /guide/assignments
 [learning-materials]: https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 [teaching-materials]: http://training.github.com/materials/
-[cheat-sheet]: /git-cheat-sheet-education.pdf
+[cheat-sheet]: https://training.github.com/kit/downloads/es/github-git-cheat-sheet.pdf
 [ghfm]: https://mac.github.com/
 [ghfw]: https://windows.github.com/
 [teacher-community]: https://github.com/education/teachers
