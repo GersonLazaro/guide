@@ -1,47 +1,47 @@
-### Setup
+### Configuración
 
-To set up assignments using the sandboxing method (a.k.a. "fake forks" or [duplicated repositories][help-duplicate]):
+Para configurar las tareas usando el método sandboxing (conocido tambien como "caja de arena", "forks falsos" or [repositorios duplicados][help-duplicate]):
 
-#### 1. Get an upgraded plan
+#### 1. Obtener un plan actualizado
 
-See our [guide][private-repos] on getting private repositories to use in your class. You will need one private repository per student per assignment.
+Revisa nuestra [guia][private-repos] para crear repositorios privados para su clase. Necesitaras un repositorio privado por estudiante para cada tarea.
 
-#### 2. Set up the repositories
+#### 2. Configura los repositorios
 
-You have a few options for how to organize the repositories for your students. We have a command-line tool called [teachers_pet][teachers-pet] that automates some of these steps. You can use the [`create_repos`][create-repos-action] action to create the repositories, or do the following steps [manually][help-duplicate].
+Tienes algunas opciones para organizar los repositorios de tus estudiantes. Tenemos una herramienta de linea de comandos llamada [teachers_pet][teachers-pet] que automatiza estos pasos. Puedes usar la acción [`create_repos`][create-repos-action] para crear repositorios, o seguir los pasos [manualmente][help-duplicate].
 
-##### Individual projects
+##### Proyectos individuales
 
-For each student:
+Por cada estudiante:
 
-1. Create a repository in the organization based on the student's name.
-1. Create a team in the organization, matching the name of the repository.
-1. Set that team to have `Push/Pull` permissions.
-1. Add the student to that team.
-1. Give that team access to the corresponding repository.
+1. Crea un repositorio en la organización con el nombre del estudiante.
+1. Crea un equipo en la organización, que coincida con el nombre del repositorio.
+1. Establece que el equipo tiene permisos `Push/Pull`.
+1. Agrega los estudiantes al equipo.
+1. Asigna al equipo acceso al repositorio correspondiente.
 
-##### Group projects
+##### Proyectos grupales
 
-For each group:
+Por cada grupo:
 
-1. Create a repository in the organization.
-1. Create a team in the organization.
-1. Set that team to have `Push/Pull` permissions.
-1. Add all of the group members to that team.
-1. Give that team access to the corresponding repository.
+1. Crea un repositorio en la organización.
+1. Crea un equipo en la organización.
+1. Establece que el equipo tiene permisos `Push/Pull`.
+1. Agrega los miembros del grupo al equipo.
+1. Asigna al equipo acceso al repositorio correspondiente.
 
-#### 3. Seed the repositories
+#### 3. Inicia los repositorios
 
-If you have boilerplate code/files each student will need, you can create a starter repository locally, then [push][ref-push] it up to each student repository for that assignment. The [`push_files`][push-files] action in [teachers_pet][teachers-pet] automates this for you.
+Su tiene código/archivos iniciales que cada estudiante necesite, puedes crear un repositorio de inicio a nivel local, y luego realizar [push][ref-push] en cada repositorio de estudiante para esa tarea. La acción [`push_files`][push-files] en [teachers_pet][teachers-pet] automatiza esto para ti.
 
-For the assignment instructions, use one of these two recommended options:
+Para las instrucciones de la tarea, utilice una de estas dos opciones recomendadas:
 
-* Create a canonical repository with instructions, in the syllabus repository, or in one dedicated to the assignment.  This gives a canonical source for students to refer to.  If you do create a README in each student's repository, add a link to the canonical instructions.
-* Open issues in each student's repository for them to complete.  The [`open_issue`] command in [teachers_pet][teachers-pet] automates this for you.
+* Crea un repositorio canónico con las instrucciones, en el repositorio syllabus, o en uno dedicado a la tarea. Esto da a los estudiantes una fuente general para referir a los estudiantes.  If creas un README en cada repositorio estudiantil, agrega un link a las instrucciones canónicas.
+* Abre "issues" en cada repositorio estudiantil para que las completen.  El comando [`open_issue`] en [teachers_pet][teachers-pet] automatiza esto por ti.
 
-### Collecting assignments
+### Recopilación de tareas
 
-When you are ready to grade the assignments, you can clone the repositories to your machine in bulk using the [`clone_repos`][clone-repos] command in [teachers_pet][teachers-pet].
+Cuando estes listo para calificar las tareas, puedes clonar los repositorios a tu maquina usando el comando [`clone_repos`][clone-repos] en [teachers_pet][teachers-pet].
 
 <!-- Links -->
 [help-duplicate]: https://help.github.com/articles/duplicating-a-repository
