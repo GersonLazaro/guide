@@ -1,29 +1,29 @@
-### Using repositories
+### Uso de repositorios
 
-First, follow the instructions to [set up assignment repositories][repository-setup].  Once created, the repositor(ies) should be "seeded" with boilerplate content.  This may just be a simple README, but could include a starter source code file, `main()` function, etc.
+Primero, sigue las instrucciones para [configurar los repositorios de asignaciones][repository-setup]. Una vez creado, los repositorios deben ser inicializados con el contenido repetitivo. Esto puede ser un simple archivo README, pero podría también incluir un archivo de código, función de inicialización, función main(), etc.
 
-#### Project pages
+#### Páginas de proyecto
 
-If the students need to provide background materials, documentation, or blog posts about their project, you can have them:
+Si los estudiantes necesitan proporcionar materiales de apoyo, documentación, o entradas de blog acerca de su proyecto, puedes hacer:
 
-* Commit [Markdown][markdown] files directly to the repository
-* Use the [repository wiki][wikis]
-* Build a project/class homepage using [GitHub Pages][pages]
+* Hacer commit con archivos [Markdown][markdown] directamente al repositorio
+* Usar la [wiki del repositorio][wikis]
+* Construir una página para el proyecto/clase en [Páginas Github][pages]
 
-#### Automated testing
+#### Testing automatizado
 
-[Automated testing][automated-testing] (often referred to as part of [continuous integration][ci], or "CI") is a great way to quickly verify students' solutions.  Your test suite could include any of the following:
+El [testing automatizado][automated-testing] (a menudo considerado como parte de la [integración continua][ci], or "CI") es una excelente manera de verificar rapidamente las soluciones de los estudiantes.  Su conjunto de pruebas podria incluir:
 
-* Static analysis / linting
-    * [HTML validation][html-validator]
+* Analisis estático
+    * [Validación HTML][html-validator]
     * [JSHint][jshint]
     * [Cppcheck][cppcheck]
-    * *and [many others][static-analysis]*
-* Unit tests
-    * Tests can be written by you, and/or by the students
-    * Hidden from the student (a.k.a. an "autograder") or not
+    * *y [muchas otras][static-analysis]*
+* Pruebas unitarias
+    * Las pruebas pueden ser escritas por ti o por los estudiantes
+    * Ocultas para el estudiante o no
 
-There are lots of tools and services that can run automated tests, including:
+Hay muchas herramientas y servicios que pueden correr pruebas automatizadas, incluyendo:
 
 * [Travis CI][travis]
 * [Jenkins CI][jenkins]
@@ -31,17 +31,17 @@ There are lots of tools and services that can run automated tests, including:
 * [CodeClimate][code-climate]
 * [Coveralls][coveralls]
 
-These tools can be configured to run the tests every time new code is pushed up to a student's repository using [webhooks][webhooks], though some do the setup automatically.
+Estas herramientas pueden ser configuradas para ejecutar las pruebas cada vez que un nuevo código es agregado por el estudiante al repositorio usando [webhooks][webhooks], aunque algunos realizan la configuración de forma automática.
 
-### Collecting assignments
+### Recopilación de asignaciones
 
-The recommended mechanics use for collecting assignments depends on whether you use the [fork][forks] or [sandbox][sandboxing] strategy.  In either case, feedback can be given inline in pull requests or [commits][commit-comments], or by opening [issues][issues] in the student's repository for them to fix.  This can be done by instructors, though you may consider incorporating peer code review as a way for students to practice giving and receiving feedback.  Note that you may need to grant students [read-only access][access-permissions] to one another's repositories to allow them to see the contents and leave comments.
+La mecánica recomensada para recoger las asignaciones depende de su se utiliza la estrategia de [fork][forks] or [sandbox][sandboxing].  En cualquier caso, la retroalimentación puede darse mediante pull request o [commits][commit-comments], o abriendo [issues][issues] en el repositorio de los estudiantes para que ellos lo "corrijan".  Esto puede ser hecho por los instructores, aunque es posible considerar la incorporación de revisión de código por pares como una manera de que los estudiantes practiquen el dar y recibir retroalimentación.  Tenga en cuenta que es posible que deba conceder a los estudiantes [acceso de solo lectura][access-permissions] a uno de los otros repositorios para permitir que vean los contenidos y dejen sus comentarios.
 
-One GitHub feature that may come in handy is using the [Network][network] and [contributors][graphs] graphs, as well as the list of commits.  As was [pointed out in our teacher community][community-graphs],
+Una caracteristica de Github que puede ser util es utilizar los gráficos de [Red][network] y [contribuyentes][graphs], al igual que la lista de commits.  Como fue [señalado en la comunidad para docentes][community-graphs],
 
-> Having the github analytics have been great -- I just have to look at the contributors graph and quickly scan the commit logs.  I can see who did how much and when in just a couple of seconds. I can also see the ebb and flow of work on the project.
+> Tener los resumenes analíticos de Github ha sido genial -- Solo tengo que revisar el gráfico de contribuyentes y rápidamente escanear los commits realizados.  Puedo ver quien hizo que, como y cuando en solo un par de segundos. También puedo ver el flujo de trabajo del proyecto.
 
-Be warned, however: don't take the commit metadata (or graphs generated from them) as gospel; a savvy student could modify the commit author(s) or timestamp(s) after the fact.
+Sin embargo, se advierte: no tomes los metadatos (o los gráficos generados por ellos) como un evangelio; un estudiante inteligente bien podria editar el(los) autor(es) del commit(s) o su fecha y hora despues de los hechos.
 
 <!-- Links -->
 [repository-setup]: /guide/repository_setup
