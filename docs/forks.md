@@ -1,36 +1,36 @@
-To have students complete assignments using forks (note: this setup means that **students will be able to see one another's work**):
+Los estudiantes completan sus tareas usando forks (nota: esta configuración significa que **los estudiantes podrán ver el trabajo de sus compañeros**):
 
-### 1. Create the repositories
+### 1. Crea los repositorios
 
-**[Create one repository][create-repo] per assignment**. Include any boilerplate files your students will need to get started.
+**[Crea un repositorio][create-repo] por tarea**. Incluye cualquier archivo que tus estudiantes necesiten para empezar.
 
-If you'd prefer that your assignments or students' work isn't publicly visible, [request private repositories][private-repos] to use for your class. You will need one private repository per assignment.
+Si prefieres que tus tareas o el trabajo de tus estudiantes no sea publicamente visible, [solicita repositorios privados][private-repos] para utilizar en tu clase. Necesitas un repositorio privado por tarea.
 
-### 2. Give students read-only access
+### 2. Asigna a los estudiantes acceso de solo lectura
 
-**If your repositories are public, you can skip this step.**
+**Si tu repositorio es público puedes omitir este paso.**
 
-If your course materials are in private repositories, students will need read-only access to them. Create a `students` team with "read access" and give that team access to all repositories that they will need. Next, add each student to the team, via [`add_to_team`][add-to-team-action] in our [teachers_pet][teachers-pet] tool, or [manually][help-add-to-team].
+Si los materiales de tu curso están en repositorios privados, los estudiantes necesitan acceso de solo lectura a ellos. Crea un equipo `estudiantes` con "acceso de lectura" y asigna el acceso al equipo a todos los repositorios que necesiten. Posteriormente, agrega cada estudiante al equipo, usando [`add_to_team`][add-to-team-action] en la herramienta [teachers_pet][teachers-pet] o [manualmente][help-add-to-team].
 
-[Read more about access control][help-access-control].
+[Lee mas sobre el control de acceso][help-access-control].
 
-### 3. Completing assignments
+### 3. Realizando las tareas
 
-Your students then follow these steps for each assignment:
+Tus estudiantes deben seguir los siguientes pasos para cada tarea:
 
-1. To start, [**fork** the repository][forking].
-1. [**Clone**][ref-clone] the repository to your computer.
-1. Modify the files and [**commit**][ref-commit] changes to complete your solution.
-1. [**Push**][ref-push]/sync the changes up to GitHub.
-1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
+1. Para empezar, [crea un **fork** del repositorio][forking].
+1. [**Clona**][ref-clone] el repositorio a tu computador.
+1. Modifica los archivos y crea un [**commit**][ref-commit] con los cambios realizados para completar la solución.
+1. Realiza un [**Push**][ref-push] para sincronizar los cambios con github.
+1. [Crea un **pull request**][pull-request] en el repositorio original.
 
-You may consider making a context-specific copy of these steps in your syllabus or assignment description – grab [the markdown][raw].
+Considera hacer una copia de estos pasos contextualizandolos en tu proyecto en tu syllabus o descripción de tareas – Toma el [markdown][raw].
 
-### 4. Reviewing assignments
+### 4. Revisando las tareas
 
-Once created, you can then do code review with line-by-line feedback directly within the pull request. If you allow your students to submit corrections, they can push fixes up to their forks, which will be reflected in the pull request.
+Una vez creado, puede hacer la revisión de código con retroalimentación linea a linea directamente dentro del pull request. Si permites que tus estudiantes presentes correcciones, pueden realizar las correcciones en sus respectivos forks, que se reflejaran en el pull request.
 
-Since you don't want any solutions in the original assignment repository, you should leave the pull request unmerged. When you're finished giving feedback, you can close the pull request and leave a :+1: (`:+1:`) in a final comment.
+Dado que no deseamos tener ninguna solución en el repositorio de tareas original, debes dejar el pull request sin combinar (unmerged). Cuando termines de retroalimentar, puedes cerrar el pull request y dejar un  :+1: (`:+1:`) en un comentario final.
 
 <!-- Links -->
 [create-repo]: https://help.github.com/articles/create-a-repo
