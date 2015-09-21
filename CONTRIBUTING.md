@@ -1,22 +1,15 @@
-# Contribution guidelines
+# Guia de contribución
 
-The following suggestions/changes are welcome:
+Las siguientes sugerencias son bienvenidas:
 
-* Grammar/spelling fixes
-* Clarifications
-* New tips for making the usage easier
+* Arreglos ortográficos/gramáticos
+* Clarificaciones
+* Nuevos tips para un mejor uso
 
-The following are not welcome:
+Las siguientes no son bienvenidas:
 
-* Promotion of products that you are affiliated with
+* Promoción de productos en los que estas afiliado
 
-If you aren't sure if something will fit, feel free to start a pull request early to get feedback, or just give a summary of your idea in an issue.
+Si no estas seguro si algo va a encajar, no dudes en iniciar un pull request para obtener retroalimentación, o simplemente dar un resumen de tu idea en un issue.
 
-## Running tests
 
-To verify that markdown and links are valid, run
-
-```bash
-bundle
-bundle exec rake
-```
