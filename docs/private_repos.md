@@ -1,14 +1,14 @@
-To use private repositories for your class:
+Para utilizar repositorios privados en tu clase:
 
-### 1. Request free private repositories
+### 1. Solicita repositorios privados
 
-GitHub is free for open source and paid for private use. We're happy to offer free private repositories to teachers using GitHub with students in a classroom setting – just **[submit a request][discount] for an organization account** upgrade. Note these requests take up to a week to process, so please **do this in advance**.
+GitHub es gratis para proyectos de código libre y de pago para uso privado. Aún asi, estamos encantados de ofrecer repositorios privados gratuitos para profesores que utilizan GitHub con estudiantes en un salón de clases – solo **[envía una solicitud][discount] para una actualización en la cuenta de la organización**. Tenga en cuenta que estas solicitudes tardan hasta una semana en ser procesadas, asi que por favor **realiza esto con anticipación**.
 
-### 2. Give access to others
+### 2. Dar acceso a los demás
 
-You'll probably want to [add][help-add] all co-teachers, teaching assistants, graders, etc. to the Owners team in the organization, so that they will be able to access all repositories.
+Posiblemente quieras [agregar][help-add] todos los co-profesores, profesores, asistentes, etc. al equipo de propietarios en la organización, para que puedan acceder a todos los repositorios.
 
-You can read more about [teams][help-add-to-team] and [access control][help-access-control] on GitHub Help.
+Puedes leer mas acerca de los [equipos][help-add-to-team] y el [control de acceso][help-access-control] en la ayuda de Github.
 
 <!-- Links -->
 [discount]: /discount
