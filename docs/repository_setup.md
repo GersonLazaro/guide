@@ -1,22 +1,22 @@
-There are two options for how to structure assignment repositories:
+Tienes dos opciones para estructurar los repositorios de tareas:
 
 ### [Forks][forks]
 
-* Anyone who can see the base repository can see all forks, i.e. all students can see one another's work.
-* Different solutions can be cross-referenced, encouraging peer learning.
-* Pull requests can be used for submission and code review.
-* Ideal for collaborative assignments, which can act like open source projects.
+* Cualquier persona puede que pueda ver el repositorio base, puede ver todos los forks, es decir, todos los estudiantes pueden ver el trabajo de los demas.
+* Diferentes soluciones pueden ser referenciadas, fomentando el aprendizaje entre iguales.
+* Se pueden utilizar pull request para el envio y revisión de código.
+* Ideal para asignaciones colaborativas, que actuan como proyectos de código libre.
 
-### [Sandboxing][sandboxing]
+### [Sandboxing][sandboxing] (caja de arena)
 
-* Individuals can only see repositories when explicitly given access, i.e. students are blocked from seeing one another's work.
-* Requires manual repository and permission setup.
+* Las personas solo pueden ver repositorios cuando se le asigna acceso de forma especifica, es decir, los estudiantes no pueden ver el trabajo de otros.
+* Requiere repositorios manuales y configuración de permisos.
 
-We use pull requests to collaborate within GitHub, as do many other companies and open source projects. Rather than trying to restrict visibility between students, embracing the potential of them learning from one another's work (through [the forking method][forks]) is encouraged, when possible :mortar_board:
+Utilizamos los pull requests para colaborar en GitHub, como lo hacen muchas compañias y proyectos de código libre. En lugar de restringir la visibilidad entre estudiantes, te animamos a apoyar el potencial de aprender del trabajo de los demas (mediante [el método de forks][forks]) siempre que sea posible :mortar_board:
 
-> Unless there's some special reason, I want all the repositories to be public -- the kids have plenty of ways of sharing information without us knowing about it so I'd rather try to create a culture of sharing with attribution.
+> A menos que haya una razón especial, quiero que todos los repositorios sean públicos -- los niños tienen un montón de maneras de compartir información sin saber de ella, asi que prefiero tratar de crear una cultura de compartir con la respectiva atribución.
 
-–[@zamansky][zamansky], CS teacher, Stuyvesant High School ([source][zamansky-source])
+–[@zamansky][zamansky], profesor CS, Stuyvesant High School ([source][zamansky-source])
 
 <!-- Links -->
 [forks]: /guide/forks

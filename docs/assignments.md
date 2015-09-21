@@ -1,6 +1,6 @@
 ### Uso de repositorios
 
-Primero, sigue las instrucciones para [configurar los repositorios de asignaciones][repository-setup]. Una vez creado, los repositorios deben ser inicializados con el contenido repetitivo. Esto puede ser un simple archivo README, pero podría también incluir un archivo de código, función de inicialización, función main(), etc.
+Primero, sigue las instrucciones para [configurar los repositorios de tareas][repository-setup]. Una vez creado, los repositorios deben ser inicializados con el contenido repetitivo. Esto puede ser un simple archivo README, pero podría también incluir un archivo de código, función de inicialización, función main(), etc.
 
 #### Páginas de proyecto
 
@@ -33,9 +33,9 @@ Hay muchas herramientas y servicios que pueden correr pruebas automatizadas, inc
 
 Estas herramientas pueden ser configuradas para ejecutar las pruebas cada vez que un nuevo código es agregado por el estudiante al repositorio usando [webhooks][webhooks], aunque algunos realizan la configuración de forma automática.
 
-### Recopilación de asignaciones
+### Recopilación de tareas
 
-La mecánica recomensada para recoger las asignaciones depende de su se utiliza la estrategia de [fork][forks] or [sandbox][sandboxing].  En cualquier caso, la retroalimentación puede darse mediante pull request o [commits][commit-comments], o abriendo [issues][issues] en el repositorio de los estudiantes para que ellos lo "corrijan".  Esto puede ser hecho por los instructores, aunque es posible considerar la incorporación de revisión de código por pares como una manera de que los estudiantes practiquen el dar y recibir retroalimentación.  Tenga en cuenta que es posible que deba conceder a los estudiantes [acceso de solo lectura][access-permissions] a uno de los otros repositorios para permitir que vean los contenidos y dejen sus comentarios.
+La mecánica recomendada para recoger las tareas depende de su se utiliza la estrategia de [fork][forks] or [sandbox][sandboxing].  En cualquier caso, la retroalimentación puede darse mediante pull request o [commits][commit-comments], o abriendo [issues][issues] en el repositorio de los estudiantes para que ellos lo "corrijan".  Esto puede ser hecho por los instructores, aunque es posible considerar la incorporación de revisión de código por pares como una manera de que los estudiantes practiquen el dar y recibir retroalimentación.  Tenga en cuenta que es posible que deba conceder a los estudiantes [acceso de solo lectura][access-permissions] a uno de los otros repositorios para permitir que vean los contenidos y dejen sus comentarios.
 
 Una caracteristica de Github que puede ser util es utilizar los gráficos de [Red][network] y [contribuyentes][graphs], al igual que la lista de commits.  Como fue [señalado en la comunidad para docentes][community-graphs],
 
